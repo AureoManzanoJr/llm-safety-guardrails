@@ -1,5 +1,7 @@
 # llm-safety-guardrails
 
+![CI](https://github.com/AureoManzanoJr/llm-safety-guardrails/actions/workflows/ci.yml/badge.svg)
+
 Deterministic safety guardrails for LLM-powered assistants in **regulated and
 health-adjacent domains** — the kind of assistant where "let the model decide"
 is not an acceptable answer.
