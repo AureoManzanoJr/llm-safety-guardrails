@@ -1,0 +1,28 @@
+{
+  "name": "llm-safety-guardrails",
+  "version": "0.1.0",
+  "description": "Deterministic safety guardrails for LLM-powered assistants in regulated and health-adjacent domains: emergency detection, medical-advice blocking, and false-capability-promise prevention — with a runnable eval harness.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Aureo Manzano Junior",
+  "keywords": [
+    "llm",
+    "ai-safety",
+    "guardrails",
+    "prompt-injection",
+    "healthcare",
+    "chatbot",
+    "typescript"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "evals": "node --import tsx eval/run.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
